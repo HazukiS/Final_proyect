@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Uniformes Yoshi</string>
+    <string name="mapa">¿Cómo Llegar?</string>
+    <string name="TituloP">Uniformes Deportivos</string>
+    <string name="Titulo2">Yoshi</string>
+    <string name="Telefono">Telefono (614)216-82-87 y 140-95-93</string>
+    <string name="Direccion">Direccion 20 de Nov. y Pacheco #3908-A Col. Obrera</string>
+    <string name="Correo">Correo uniformes_deportivos@hotmail.es</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo_actividad_detalle">Actividad De Detalle</string>
+    <string name="nombre_transicion_imagen">imagen_compartida</string>
+
+</resources>

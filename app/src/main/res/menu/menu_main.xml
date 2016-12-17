@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/Opcion1"
+        android:title="Principal" />
+    <item
+        android:id="@+id/Opcion2"
+        android:title="Catalogo" />
+    <item
+        android:id="@+id/Opcion3"
+        android:title="¿Cómo LLegar?" />
+    <item
+        android:id="@+id/Opcion4"
+        android:title="Inventario" />
+</menu>

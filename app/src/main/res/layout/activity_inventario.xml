@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.tecii.android.final_proyect.Inventario">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/et1"
+        android:hint="INGRESE CODIGO"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_below="@id/et1"
+        android:id="@+id/et4"
+        android:hint="INGRESE NOMBRE"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/et4"
+        android:id="@+id/et2"
+        android:hint="INGRESE DESCRIPCION" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/et2"
+        android:id="@+id/et3"
+        android:hint="INGRESE PRECIO" />
+
+    <Button
+        android:text="ALTA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAlta"
+        android:layout_below="@+id/et3"
+        android:onClick="alta" />
+
+    <Button
+        android:text="CONSULTA POR CODIGO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAlta"
+        android:id="@+id/btnConCod"
+        android:onClick="consultaporcodigo" />
+
+    <Button
+        android:text="CONSULTA POR NOMBRE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnConCod"
+        android:id="@+id/btnConDesc"
+        android:onClick="consultapornombre" />
+
+    <Button
+        android:text="BAJA POR CODIGO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnConDesc"
+        android:id="@+id/btnBaja"
+        android:onClick="bajaporcodigo"/>
+
+    <Button
+        android:text="MODIFICACION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBaja"
+        android:id="@+id/btnModif"
+        android:onClick="modificacion" />
+</RelativeLayout>
